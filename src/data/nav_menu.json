@@ -1,0 +1,22 @@
+[
+    {
+        "section": "home",
+        "link": "/"
+    },
+    {
+        "section": "services",
+        "link": "/"
+    },
+    {
+        "section": "skills",
+        "link": "/"
+    },
+    {
+        "section": "partners",
+        "link": "/"
+    },
+    {
+        "section": "blog",
+        "link": "/"
+    }
+]

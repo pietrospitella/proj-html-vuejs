@@ -1,0 +1,27 @@
+[
+    {
+        "name": "phone_number",
+        "text": "+1 (305) 1234-5678",
+        "icon": "fas fa-phone-alt"
+    },
+    {
+        "name": "mail_address",
+        "text": "hello@example.com",
+        "icon": "fas fa-envelope"
+    },
+    {
+        "name": "facebook",
+        "text": "",
+        "icon": "fab fa-facebook-f"
+    },
+    {
+        "name": "twitter",
+        "text": "",
+        "icon": "fab fa-twitter"
+    },
+    {
+        "name": "linkedin",
+        "text": "",
+        "icon": "fab fa-linkedin-in"
+    }
+]
