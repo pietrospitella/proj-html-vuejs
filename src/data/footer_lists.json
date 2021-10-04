@@ -1,0 +1,89 @@
+[
+    {
+        "group": "about",
+        "items": [
+            {
+                "name": "the company",
+                "url": "/"
+            },
+            {
+                "name": "institutional",
+                "url": "/"
+            },
+            {
+                "name": "social & events",
+                "url": "/"
+            },
+            {
+                "name": "innovation",
+                "url": "/"
+            },
+            {
+                "name": "environment",
+                "url": "/"
+            },
+            {
+                "name": "technology",
+                "url": "/"
+            }
+        ]
+    },
+    {
+        "group": "transport",
+        "items": [
+            {
+                "name": "industrialized",
+                "url": "/"
+            },
+            {
+                "name": "chemicals",
+                "url": "/"
+            },
+            {
+                "name": "packaged liquids",
+                "url": "/"
+            },
+            {
+                "name": "construction",
+                "url": "/"
+            },
+            {
+                "name": "laminated wood",
+                "url": "/"
+            },
+            {
+                "name": "and others",
+                "url": "/"
+            }
+        ]
+    },
+    {
+        "group": "support",
+        "items": [
+            {
+                "name": "responsibility",
+                "url": "/"
+            },
+            {
+                "name": "terms of use",
+                "url": "/"
+            },
+            {
+                "name": "about cookies",
+                "url": "/"
+            },
+            {
+                "name": "privacy policy",
+                "url": "/"
+            },
+            {
+                "name": "accessibility",
+                "url": "/"
+            },
+            {
+                "name": "information",
+                "url": "/"
+            }
+        ]
+    }
+]

@@ -30,7 +30,9 @@ section {
   height: 25rem;
   width: 100%;
   background-image: url(~@/assets/img/bg-1.jpg);
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
 

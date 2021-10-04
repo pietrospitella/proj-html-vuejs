@@ -17,7 +17,7 @@
             <div id="jumbotron">
                 <div id="jumbo_cont">
                     <nav>
-                        <div id="logo">
+                        <div class="logo">
                             <a href=""><span>NEX</span>GEN</a>
                         </div>
                         <div id="nav_menu">
@@ -68,152 +68,152 @@ export default {
 
 @import '../style/generals.scss';
 
-    header {
+header {
 
-        #cont{
+    #cont{
 
-            #top_bar{
-                height: 40px;
-                background-color: #21333E;
+        #top_bar{
+            height: 40px;
+            background-color: #21333E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #top_info{
+                width: 60%;
+                color: #C0C3D0;
                 display: flex;
-                justify-content: center;
                 align-items: center;
+                justify-content: space-between;
+                font-size: 20px;
 
-                #top_info{
-                    width: 60%;
-                    color: #C0C3D0;
+                #top_left, #top_right{
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
-                    font-size: 20px;
 
-                    #top_left, #top_right{
+                    .top_right_item{
                         display: flex;
+                        margin:  0 15px;
+                    }
+                    
+                    svg {
+                    margin-right: 10px;
+                    }
+                }
+                
+                
+            }
+        }
+
+        #wrapper{
+            height: calc(80vh - 40px);
+            background-image: url(../assets/img/jumbo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            #jumbotron{
+                height: 100%;
+                background-color: rgba($color: #000000, $alpha: 0.6);
+
+                #jumbo_cont{
+                    color: #FFFFFF;
+                    margin: 0 auto;
+                    width: 60%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    justify-content: center;
+                    position: relative;
+
+                    nav {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: 10%;
+                        position: absolute;
+                        top: 10px;
+                        display: flex;
+                        justify-content: space-between;
                         align-items: center;
 
-                        .top_right_item{
-                            display: flex;
-                            margin:  0 15px;
+                        #logo {
+                            letter-spacing: 6px;
+                            a {
+                                text-decoration: none;
+                                color: $regent_gray;
+                                font-weight: 700;
+                                font-size: 18px;
+
+                                span {
+                                    background-color: rgba(8, 129, 129, 0.4);
+                                    color: #00a6a6;
+                                    border-radius: 50px 0 0 50px;
+                                    padding: 10px 0px 10px 30px ;
+                                }
+
+                            }
+                            
                         }
                         
-                        svg {
-                        margin-right: 10px;
-                        }
-                    }
-                   
-                    
-                }
-            }
+                        #nav_menu{
+                            ul {
+                                list-style: none;
+                                display: flex;
+                                text-align: center;
 
-            #wrapper{
-                height: calc(80vh - 40px);
-                background-image: url(../assets/img/jumbo.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-
-                #jumbotron{
-                    height: 100%;
-                    background-color: rgba($color: #000000, $alpha: 0.6);
-
-                    #jumbo_cont{
-                        color: #FFFFFF;
-                        margin: 0 auto;
-                        width: 60%;
-                        height: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: flex-end;
-                        justify-content: center;
-                        position: relative;
-
-                        nav {
-                            display: flex;
-                            justify-content: space-between;
-                            width: 100%;
-                            height: 10%;
-                            position: absolute;
-                            top: 10px;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-
-                            #logo {
-                                letter-spacing: 6px;
-                                a {
+                                li:not(button){
+                                    display: flex;
+                                    text-align: center;
+                                    margin: 0 20px;
+                                    
+                                    a {
+                                    align-self: center;
                                     text-decoration: none;
-                                    color: $regent_gray;
-                                    font-weight: 700;
-                                    font-size: 18px;
-
-                                    span {
-                                        background-color: rgba(8, 129, 129, 0.4);
-                                        color: #00a6a6;
-                                        border-radius: 50px 0 0 50px;
-                                        padding: 10px 0px 10px 30px ;
+                                    color: white;
+                                    text-transform: uppercase;
                                     }
-
                                 }
                                 
                             }
-                            
-                            #nav_menu{
-                                ul {
-                                    list-style: none;
-                                    display: flex;
-                                    text-align: center;
-
-                                    li:not(button){
-                                        display: flex;
-                                        text-align: center;
-                                        margin: 0 20px;
-                                        
-                                        a {
-                                        align-self: center;
-                                        text-decoration: none;
-                                        color: white;
-                                        text-transform: uppercase;
-                                        }
-                                    }
-                                    
-                                }
-
-                            }
-
 
                         }
 
-                        #main{
-                            width: 50%;
-                            padding: 0 100px;
 
-                            #logistics{
-                                // used color $elf_green in rgba to make transparency
-                                background: linear-gradient(120deg, rgba(8, 129, 129, 0.6) 0%, rgba(8, 129, 129, 0.6) 100%);
-                                background-repeat: no-repeat;
-                                background-size: 100% 40%;
-                                background-position: 0 90%; 
-                            }
+                    }
 
-                            p {
-                                font-size: 18px;
-                            }
+                    #main{
+                        width: 50%;
+                        padding: 0 100px;
 
-                            #main_btns{
-                                width: 300px;
-                                button {
-                                    margin-right: 10px;
-                                    font-size: 14px;
-                                    font-weight: 500;
-                                    font-family: 'Poppins', sans-serif;
-                                }
+                        #logistics{
+                            // used color $elf_green in rgba to make transparency
+                            background: linear-gradient(120deg, rgba(8, 129, 129, 0.6) 0%, rgba(8, 129, 129, 0.6) 100%);
+                            background-repeat: no-repeat;
+                            background-size: 100% 40%;
+                            background-position: 0 90%; 
+                        }
+
+                        p {
+                            font-size: 18px;
+                        }
+
+                        #main_btns{
+                            width: 300px;
+                            button {
+                                margin-right: 10px;
+                                font-size: 14px;
+                                font-weight: 500;
+                                font-family: 'Poppins', sans-serif;
                             }
                         }
                     }
                 }
             }
         }
-        
     }
+    
+}
 
 h5 {
     font-size: 12px;

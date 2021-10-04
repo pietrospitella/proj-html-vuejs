@@ -138,6 +138,7 @@ section {
             width: 40px;
             height: 40px;
             padding: 12px;
+            margin-right: 10px;
             background-color: rgba($color: $elf_green, $alpha: 0.2);
             border-radius: 50% ;
           }
