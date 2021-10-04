@@ -12,18 +12,40 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: $main_font;
 }
 
 h1 {
     font-weight: 900;
-    font-size: 55px;
+    font-size: 50px;
+}
 
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 20px;
 }
 
 h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $blue_lagoon;
+}
+
+p {
+    color: $regent_gray;
+    font-size: 16px;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 // BUTTONS
@@ -46,3 +68,25 @@ button {
     border: 1px solid $blue_lagoon;
 }
 
+//
+
+.box {
+    width: 22vw;
+    height: 22vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlighted {
+    background-color: rgba($color:$blue_lagoon, $alpha: 0.2);
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.highlighted_txt {
+    background-color: rgba($color:$blue_lagoon, $alpha: 0.2);
+    color: $elf_green;
+    padding: 2px 10px;
+    border-radius: 5px;
+}

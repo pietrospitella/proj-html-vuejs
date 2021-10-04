@@ -4,11 +4,11 @@
         <div id="top_bar">
             <div id="top_info">
                 <div id="top_left">
-                    <span class="fas fa-clock"></span><h6>Open Hours: Mon - Sat - 9:00 - 18:00</h6>   
+                    <span class="fas fa-clock"></span><h5>Open Hours: Mon - Sat - 9:00 - 18:00</h5>   
                 </div>
                 <div id="top_right">
                     <div class="top_right_item" v-for="(info, index) in topbar" :key="index">
-                        <span :class="info.icon"></span><h6>{{info.text}}</h6>
+                        <span :class="info.icon"></span><h5>{{info.text}}</h5>
                     </div>
                 </div>               
             </div>
@@ -195,15 +195,13 @@ export default {
                             }
 
                             p {
-                                color: $regent_gray;
                                 font-size: 18px;
-                                margin-bottom: 20px;
                             }
 
                             #main_btns{
-
+                                width: 300px;
                                 button {
-                                    margin-left: 10px;
+                                    margin-right: 10px;
                                     font-size: 14px;
                                     font-weight: 500;
                                     font-family: 'Poppins', sans-serif;
@@ -217,6 +215,9 @@ export default {
         
     }
 
-
+h5 {
+    font-size: 12px;
+    font-weight: 300;
+}
 
 </style>
