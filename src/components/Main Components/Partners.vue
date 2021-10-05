@@ -9,6 +9,9 @@
 </template>
 
 <script>
+
+// IMPORT JSON FILE WITH PARTNERS' LOGOS
+
 import partners from '@/data/partners.json';
 
 export default {
@@ -23,7 +26,7 @@ export default {
 
 <style scoped lang="scss">
 
-@import '~@fortawesome/fontawesome-free';
+// IMPORT MAIN CSS
 
 @import '@/style/generals.scss';
 

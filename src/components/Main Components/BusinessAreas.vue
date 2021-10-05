@@ -34,7 +34,7 @@ export default {
 
 <style scoped lang="scss">
 
-@import '~@fortawesome/fontawesome-free';
+// IMPORT MAIN CSS
 
 @import '@/style/generals.scss';
 
@@ -51,6 +51,7 @@ section {
     align-items: center;
 
     #text {
+      
       #adjectives{
         font-size: 14px;
         font-weight: 400;

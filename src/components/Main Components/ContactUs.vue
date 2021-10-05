@@ -52,6 +52,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+// IMPORT ICONS & MAIN CSS
+
 @import '~@fortawesome/fontawesome-free';
 
 @import '@/style/generals.scss';
@@ -101,7 +104,7 @@ section {
             margin: 0 10px 10px 0;
             background: rgba($color: $dove_gray, $alpha: 0.2);
             color: $dove_gray;
-            font-family: "Poppins", sans-serif;
+            font-family: $main_font;
           }
 
           button {
@@ -151,6 +154,5 @@ section {
       }
     }
   }
-
 }
 </style>

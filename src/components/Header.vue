@@ -48,6 +48,8 @@
 
 <script>
 
+// IMPORT JSON FILES FOR TOP BAR INFOS & NAVBAR MENU 
+
 import topBarInfo from '../data/topbar.json';
 import navbarMenu from '../data/nav_menu.json';
 
@@ -64,8 +66,9 @@ export default {
 
 <style scoped lang='scss'>
 
-@import '~@fortawesome/fontawesome-free';
+// IMPORT ICONS & MAIN CSS
 
+@import '~@fortawesome/fontawesome-free';
 @import '../style/generals.scss';
 
 header {
@@ -135,28 +138,10 @@ header {
                         top: 10px;
                         display: flex;
                         justify-content: space-between;
-                        align-items: center;
-
-                        #logo {
-                            letter-spacing: 6px;
-                            a {
-                                text-decoration: none;
-                                color: $regent_gray;
-                                font-weight: 700;
-                                font-size: 18px;
-
-                                span {
-                                    background-color: rgba(8, 129, 129, 0.4);
-                                    color: #00a6a6;
-                                    border-radius: 50px 0 0 50px;
-                                    padding: 10px 0px 10px 30px ;
-                                }
-
-                            }
-                            
-                        }
+                        align-items: center;                        
                         
                         #nav_menu{
+                            
                             ul {
                                 list-style: none;
                                 display: flex;
@@ -189,9 +174,9 @@ header {
                         #logistics{
                             // used color $elf_green in rgba to make transparency
                             background: linear-gradient(120deg, rgba(8, 129, 129, 0.6) 0%, rgba(8, 129, 129, 0.6) 100%);
-                            background-repeat: no-repeat;
                             background-size: 100% 40%;
                             background-position: 0 90%; 
+                            background-repeat: no-repeat;
                         }
 
                         p {
@@ -200,6 +185,7 @@ header {
 
                         #main_btns{
                             width: 300px;
+
                             button {
                                 margin-right: 10px;
                                 font-size: 14px;

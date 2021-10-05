@@ -40,6 +40,9 @@
 </template>
 
 <script>
+
+// IMPORT JSON FILE WITH FOOTER LINKS
+
 import footerLists from '@/data/footer_lists.json';
 
 export default {
@@ -53,8 +56,10 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-@import '~@fortawesome/fontawesome-free';
 
+// IMPORT ICONS & MAIN CSS
+
+@import '~@fortawesome/fontawesome-free';
 @import '../style/generals.scss';
 
 footer {
@@ -109,7 +114,6 @@ footer {
             padding: 8px;
             border-radius: 50% ;
           }
-
         }
       }
     }

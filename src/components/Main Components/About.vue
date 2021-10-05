@@ -51,7 +51,7 @@ export default {
 
 <style scoped lang="scss">
 
-@import '~@fortawesome/fontawesome-free';
+// IMPORT MAIN CSS
 
 @import '@/style/generals.scss';
 
@@ -99,7 +99,6 @@ section {
     align-items: center;
 
     #infographic{
-      // margin-left: 40%;
 
       h3 {
         margin: 30px 0;
@@ -112,6 +111,7 @@ section {
       }
 
       #features{
+
         .feature{
           width: 100%;
           display: flex;
@@ -129,6 +129,7 @@ section {
             position: relative;
 
             #one_perc{
+              // to make the loading bar
               border: 8px solid $elf_green;
               width: 100px;
               height: 100px;
@@ -166,7 +167,6 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
 }
 
 

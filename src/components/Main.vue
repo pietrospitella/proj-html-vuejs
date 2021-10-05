@@ -10,6 +10,9 @@
 </template>
 
 <script>
+
+// IMPORT COMPONENTS FROM 'MAIN COMPNENTS' FOLDER
+
 import BusinessAreas from './Main Components/BusinessAreas.vue'
 import About from './Main Components/About.vue'
 import Partners from './Main Components/Partners.vue'
@@ -31,13 +34,5 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-
-@import '../style/generals.scss';
-
-main {
-    color: $woodsmoke;
-    font-weight: 700;
-    font-size: 100px;
-}
 
 </style>

@@ -19,20 +19,24 @@
 </template>
 
 <script>
+
+// IMPORT JSON FILE WITH EDITORIAL'S STUFF
+
 import editorial from '@/data/editorial.json';
+
 export default {
     name: 'Editorial',
     data(){
-        return{
-          articles: editorial
-        }
+      return{
+        articles: editorial
+      }
     }
 }
 </script>
 
 <style scoped lang="scss">
 
-@import '~@fortawesome/fontawesome-free';
+// IMPORT MAIN CSS
 
 @import '@/style/generals.scss';
 

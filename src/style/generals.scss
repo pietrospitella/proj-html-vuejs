@@ -1,6 +1,12 @@
+// IMPORT VABIABLES
+
 @import './vars';
 
+// IMPORT ICONS
+
 @import '~@fortawesome/fontawesome-free';
+
+// IMPORT MAIN FONT 
 
 @import '~@fontsource/poppins/index.css';
 @import '~@fontsource/poppins/700.css';
@@ -12,6 +18,7 @@
     box-sizing: border-box;
 }
 
+// COMMONS 
 
 body {
     font-family: $main_font;
@@ -48,6 +55,27 @@ p {
     margin-bottom: 20px;
 }
 
+// LOGO 
+
+.logo {
+    letter-spacing: 6px;
+    a {
+        text-decoration: none;
+        color: $regent_gray;
+        font-weight: 700;
+        font-size: 18px;
+
+        span {
+            background-color: rgba(8, 129, 129, 0.2);
+            color: #00a6a6;
+            border-radius: 50px 0 0 50px;
+            padding: 10px 0px 10px 30px ;
+        }
+
+    }
+    
+}
+
 // BUTTONS
 
 button {
@@ -68,15 +96,7 @@ button {
     border: 1px solid $blue_lagoon;
 }
 
-//
-
-.box {
-    width: 22vw;
-    height: 22vw;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
+// HIGHLIGHTED TEXT
 
 .highlighted {
     background-color: rgba($color:$blue_lagoon, $alpha: 0.2);
@@ -91,21 +111,12 @@ button {
     border-radius: 5px;
 }
 
-.logo {
-    letter-spacing: 6px;
-    a {
-        text-decoration: none;
-        color: $regent_gray;
-        font-weight: 700;
-        font-size: 18px;
+// BOXES
 
-        span {
-            background-color: rgba(8, 129, 129, 0.2);
-            color: #00a6a6;
-            border-radius: 50px 0 0 50px;
-            padding: 10px 0px 10px 30px ;
-        }
-
-    }
-    
+.box {
+    width: 22vw;
+    height: 22vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }

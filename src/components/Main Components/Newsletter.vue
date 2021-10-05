@@ -22,7 +22,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '~@fortawesome/fontawesome-free';
+
+// IMPORT MAIN CSS
 
 @import '@/style/generals.scss';
 
